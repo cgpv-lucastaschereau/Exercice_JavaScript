@@ -41,3 +41,28 @@ if (connecte === true && role === "admin") {
 } else {
     console.log("Acces refuse")
 }
+
+let saison = "septembre || octobre || novembre";
+switch (saison) {
+    case "decembre":
+    case "janvier":
+    case "fevrier":
+        console.log("Hiver");
+        break;
+    case "mars":
+    case "avril":
+    case "mai":
+        console.log("Printemps");
+        break;
+    case "juin":
+    case "juillet":
+    case "aout":
+        console.log("Ete");
+        break;
+    case "septembre":
+    case "octobre":
+    case "novembre":
+        console.log("Automne")
+    default:
+        return saison;
+}
